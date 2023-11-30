@@ -13,14 +13,13 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
-          title: Text("I Am Rich"),
+          title: const Text("I Am Rich"),
           centerTitle: true,
           backgroundColor: Colors.grey,
         ),
-        body: Center(
+        body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://c8.alamy.com/comp/2NHN89F/flutter-dart-code-in-android-studio-in-a-black-background-2NHN89F.jpg'),
+            image: AssetImage('images/Screenshot_8.jpg'),
           ),
         ),
       ),
